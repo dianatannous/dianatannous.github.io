@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Poppins";
+}
+
+.header-container {
+  background-color: #333f50;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-container h1 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.header-container h1 span {
+  color: #c45911;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+
+  font-size: 38px;
+  font-weight: bold;
+}
+.header-container h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+.header-container h4:nth-child(3) {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 10px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.information,
+.profile {
+  display: flex;
+}
+.information {
+  flex: 1;
+}
+.profile {
+  flex: 1;
+  justify-content: flex-end;
+}
+.profile img {
+  border-width: 1px;
+  border-color: #333f50;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.first-hr {
+  margin-top: 2px;
+}
+
+.general-information {
+  display: flex;
+  justify-content: space-between;
+}
+.part1,
+.part2 {
+  flex: 2;
+}
+
+.second-hr {
+  flex: 0.3;
+  border-left: 1px solid black;
+}
+.experience h1,
+.education h1,
+.skills h1,
+.volunteer h1,
+.qualification h1 , .languages h1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Poppins";
+  color: #c45911;
+}
+.experience h3,
+.education h3,
+.skills h3,
+.volunteer h3,
+.qualification h3 {
+  font-size: 18px;
+}
+.education {
+  margin-top: 20px;
+}
+.education ul li {
+  text-decoration: underline;
+}
+.skills h7 {
+  text-decoration: underline;
+}
+@media screen  and (max-width :1024px) {
+  .general-information {
+    display: flex;
+    flex-direction: column;
+  }
+}
